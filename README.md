@@ -35,3 +35,26 @@ Ao marcar esta caixa, reconheço que li e compreendi todos os termos abaixo : Se
 Selecione Revisar + criar . Após ver a resposta Validação aprovada , selecione Criar .
 
 Aguarde a conclusão da implantação e visualize os detalhes da implantação.
+
+# Explore generative AI in Azure AI
+Em uma guia do navegador, navegue até Azure AI Foundry .
+
+Entre com sua conta.
+
+Na página inicial do portal do Azure AI Foundry, selecione Create a project . No Azure AI Foundry, os projetos são contêineres que ajudam a organizar seu trabalho.
+No painel Criar um projeto , você verá um nome de projeto gerado, que pode ser mantido como está. Dependendo se você criou um hub no passado, verá uma lista de novos recursos do Azure a serem criados ou uma lista suspensa de hubs existentes. Se você vir a lista suspensa de hubs existentes, selecione Criar novo hub , crie um nome exclusivo para seu hub e selecione Avançar .
+No mesmo painel Create a project , selecione Customize e selecione um dos seguintes Locations : East US, France Central, Korea Central, West Europe ou West US para concluir o restante do laboratório. Em seguida, selecione create .
+Na página Playgrounds do Azure AI Foundry, selecione Try the Chat playground . O Chat playground é uma interface de usuário que permite que você experimente criar um aplicativo de chat com diferentes modelos de IA generativa.
+
+Para usar o Chat playground, você precisa associá-lo a um modelo implantado. No Chat playground, selecione Create a deployment . Pesquise e selecione gpt-4 .
+
+Na janela Deploy model , mantenha a nomenclatura e seleção padrão e selecione Deploy . Pode levar um momento para o modelo ser implantado. Você pode verificar o status da sua implantação selecionando Models and endpoints no menu à esquerda em My assets .
+No playground de bate-papo, você pode usar seu modelo implantado quando ele aparecer no menu de seleção Implantação . Certifique-se de que o modelo implantado esteja selecionado. É importante que você selecione Aplicar alterações depois de fazer qualquer alteração na Configuração .
+
+Considere as seguintes maneiras de melhorar as respostas de um assistente de IA generativa:
+Comece com uma meta específica para o que você quer que o assistente faça
+Iterar com base em prompts e respostas anteriores para refinar o resultado
+Forneça uma fonte para fundamentar a resposta em um escopo específico de informações
+Adicione contexto para maximizar a adequação e relevância da resposta
+Defina expectativas claras para a resposta
+
